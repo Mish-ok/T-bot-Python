@@ -2,14 +2,14 @@ import telebot
 import pandas as pd
 
 # Вставьте ваш токен бота Telegram
-TELEGRAM_BOT_TOKEN = '6766241645:AAF9yXnswHHxZZiDLdbqa3T90KIsue5oWSI'
+TELEGRAM_BOT_TOKEN = 'Your Token'
 
 # Инициализация бота
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
 # Загрузка данных из файла Excel
 try:
-    df = pd.read_excel('GRG.xlsx')
+    df = pd.read_excel('Err.xlsx')
     print("Файл Excel загружен успешно.")
     print("Столбцы в файле Excel:", df.columns.tolist())
 
